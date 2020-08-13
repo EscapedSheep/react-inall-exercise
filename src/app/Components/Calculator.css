@@ -1,7 +1,6 @@
 .calPage {
     width: 955px;
     height: 970px;
-    margin-top: 50px;
     display: inline-block;
     background-color: #EDEDED;
 }
@@ -52,4 +51,14 @@
     text-align: right;
     margin-bottom: 10px;
     border: 1px solid #c1c1c1;
+}
+
+.link {
+    margin-top: 20%;
+    font-size: xx-large;
+    align-self: start;
+    margin-left: 10%;
+    position: absolute;
+    left:370px;
+    bottom: 50px;
 }

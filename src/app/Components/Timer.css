@@ -1,0 +1,69 @@
+.timerPage {
+    width: 955px;
+    height: 970px;
+    display: inline-block;
+    background-color: #EDEDED;
+    padding: 50px;
+}
+
+.timerGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin: 10% 0;
+    height: 30%;
+}
+
+.timerLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.timerLeft label {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.timerLeft label input{
+    width: 50%;
+    height: 50px;
+    margin-left: 5%;
+    align-content: flex-start;
+}
+
+.timerLeft button {
+    background-color: #009FF0;
+    color: white;
+    align-self: center;
+    width: 83%;
+    height: 50px;
+    border: none;
+}
+
+.timerLeft button:disabled {
+    background-color: gray;
+}
+
+.timerRight {
+    width: 100%;
+    height: 100%;
+}
+
+.timerRight input {
+    width: 100%;
+    height: 100px;
+    background-color: #EDEDED;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.link {
+    margin-top: 20%;
+    font-size: xx-large;
+    align-self: start;
+    margin-left: 10%;
+}

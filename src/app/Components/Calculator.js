@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Calculator.css';
+import { Link } from 'react-router-dom';
 
 class Calculator extends Component {
     state = {
@@ -97,6 +98,7 @@ class Calculator extends Component {
                         <input className="eqBtn calBtn"type="button" value="=" onClick={this.handleEqualOperation}></input>
                     </div>
                 </div>
+                <Link className="link" to='/'>回到主页</Link>
             </div>
         )
     }

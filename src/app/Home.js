@@ -19,7 +19,7 @@ const Home = () => {
           </Link>
         </div>
         <div className="homeImgLink">
-          <Link>
+          <Link to='/timer'>
             <img src={timerImg} alt="timer"></img>
             <br></br>
             倒计时器
