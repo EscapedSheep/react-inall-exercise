@@ -12,7 +12,7 @@ const Home = () => {
       </div>
       <div className="homeDown">
         <div className="homeImgLink">
-          <Link>
+          <Link to='/calculator'>
             <img src={calculatorImg} alt="calculator"></img>
             <br></br>
             计算器
